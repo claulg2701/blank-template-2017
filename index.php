@@ -1,8 +1,15 @@
 <?php get_header(); ?>
   <section class="row">
     <div class="twelve columns">
-      <h2>Section Content</h2>
-      <p>This is a section content for the body.</p>
+      <!--Begin loop-->
+        <?php
+          if ( have_posts() ) {
+            while ( have_posts() ) {
+                the_post();
+            } // end while
+          } // end if
+        ?>
+      <!--End loop-->
     </div>
   </section>
 <?php get_footer(); ?>
