@@ -8,6 +8,9 @@ License: Open
 Text Domain: claudia_deleon_blank_template
 */
 
+@import url("stylesheets/skeleton.css");
+@import url("stylesheets/normalize.css");
+
 * {
   color: #000000;
   font-size: 14px;
