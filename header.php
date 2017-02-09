@@ -14,4 +14,13 @@
 					<p><?php bloginfo('description'); ?></p>
 				</div>
 			</header>
-      <!-- END OF HEADER - BEGIN SECTION CONTENT -->
+      <!-- end of header | begin section content -->
+      <!-- Menu -->
+<div class="row">
+	<div class="twelve columns">
+		<?php wp_nav_menu(array(
+			'sort_column' => 'menu_order',
+			'container_class' => 'blank-menu-header'
+			));?>
+	</div>
+</div>
