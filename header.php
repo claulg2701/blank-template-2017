@@ -10,7 +10,7 @@
 		<div class="container">
 			<header class="row">
 				<div class="nine columns">
-					<h1><?php bloginfo('name'); ?>
+					<h1><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo('name'); ?></a></h1>
 					<p><?php bloginfo('description'); ?></p>
 				</div>
         <!-- Add Search Form -->
